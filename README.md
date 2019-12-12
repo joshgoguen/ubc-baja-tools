@@ -10,9 +10,9 @@ Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app w
 
 Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
 
-## Build
+## Deploy
 
-Build the project for deployment to GitHub Pages with ng build --prod --base-href “https://joshgoguen.github.io/ubc-baja-tools/”
+Deploy to GitHub Pages with `ng deploy`. Make sure to have the ghpages Angular package, if not run `ng add angular-cli-ghpages` to get it.
 
 ## Running unit tests
 
