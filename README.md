@@ -12,7 +12,7 @@ Run `ng generate component component-name` to generate a new component. You can 
 
 ## Deploy
 
-Deploy to GitHub Pages with `ng deploy`. Make sure to have the ghpages Angular package, if not run `ng add angular-cli-ghpages` to get it.
+Deploy to GitHub Pages with `ng deploy --base-href=/ubc-baja-tools/`. Make sure to have the ghpages Angular package, if not run `ng add angular-cli-ghpages` to get it.
 
 ## Running unit tests
 

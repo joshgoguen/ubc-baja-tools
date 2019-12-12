@@ -121,7 +121,7 @@
         "deploy": {
           "builder": "angular-cli-ghpages:deploy",
           "options": {
-            "baseHref": "https://joshgoguen.github.io/ubc-baja-tools/",
+            "baseHref": "https://joshgoguen.github.io/ubc-baja-tools/"
           }
         }
       }
