@@ -4,128 +4,34 @@
   <p>Throw some info on the team here, or some links to applets etc</p>
 </div>
 
-<div>
-  <p>Another div!</p>
-  <p>
-    content content content content content content content content content
-    content content content content content content content content content
-    content content content content content content content content content
-    content content content content content content content content content
-    content content content content content content content content content
-    content content content content content content content content content
-    content content content content content content content content content
-    content content content content content content content
+<div class="steadyStateCalculator">
+  <p>Enter the average lateral g carried through the steady state corner:</p>
+  <input (keyup)="steadyStateCorner($event)"> 
+  <p *ngFor="let item of steadyStateValues | keyvalue">
+    <b>{{item.key}}</b> : <b>{{item.value}}</b>
   </p>
 </div>
 
-<div>
-  <p>Another div!</p>
-  <p>
-    content content content content content content content content content
-    content content content content content content content content content
-    content content content content content content content content content
-    content content content content content content content content content
-    content content content content content content content content content
-    content content content content content content content content content
-    content content content content content content content content content
-    content content content content content content content
+<div class="brakingWithBumpCalculator">
+  <p>Enter the maximum positive inline G value from the race data:</p>
+  <input (keyup)="brakingWithBump($event)"> 
+  <p *ngFor="let item of brakingWithBumpValues | keyvalue">
+    <b>{{item.key}}</b> : <b>{{item.value}}</b>
   </p>
 </div>
 
-<div>
-  <p>Another div!</p>
-  <p>
-    content content content content content content content content content
-    content content content content content content content content content
-    content content content content content content content content content
-    content content content content content content content content content
-    content content content content content content content content content
-    content content content content content content content content content
-    content content content content content content content content content
-    content content content content content content content
+<div class="acceleratingWithBumpCalculator">
+  <p>Enter the largest negative inline G value from the race data:</p>
+  <input (keyup)="acceleratingWithBump($event)"> 
+  <p *ngFor="let item of acceleratingWithBumpValues | keyvalue">
+    <b>{{item.key}}</b> : <b>{{item.value}}</b>
   </p>
 </div>
 
-<div>
-  <p>Another div!</p>
-  <p>
-    content content content content content content content content content
-    content content content content content content content content content
-    content content content content content content content content content
-    content content content content content content content content content
-    content content content content content content content content content
-    content content content content content content content content content
-    content content content content content content content content content
-    content content content content content content content
-  </p>
-</div>
-
-<div>
-  <p>Another div!</p>
-  <p>
-    content content content content content content content content content
-    content content content content content content content content content
-    content content content content content content content content content
-    content content content content content content content content content
-    content content content content content content content content content
-    content content content content content content content content content
-    content content content content content content content content content
-    content content content content content content content
-  </p>
-</div>
-
-<div>
-  <p>Another div!</p>
-  <p>
-    content content content content content content content content content
-    content content content content content content content content content
-    content content content content content content content content content
-    content content content content content content content content content
-    content content content content content content content content content
-    content content content content content content content content content
-    content content content content content content content content content
-    content content content content content content content
-  </p>
-</div>
-
-<div>
-  <p>Another div!</p>
-  <p>
-    content content content content content content content content content
-    content content content content content content content content content
-    content content content content content content content content content
-    content content content content content content content content content
-    content content content content content content content content content
-    content content content content content content content content content
-    content content content content content content content content content
-    content content content content content content content
-  </p>
-</div>
-
-<div>
-  <p>Another div!</p>
-  <p>
-    content content content content content content content content content
-    content content content content content content content content content
-    content content content content content content content content content
-    content content content content content content content content content
-    content content content content content content content content content
-    content content content content content content content content content
-    content content content content content content content content content
-    content content content content content content content
-  </p>
-</div>
-
-<div>
-  <p>Another div!</p>
-  <p>
-    content content content content content content content content content
-    content content content content content content content content content
-    content content content content content content content content content
-    content content content content content content content content content
-    content content content content content content content content content
-    content content content content content content content content content
-    content content content content content content content content content
-    content content content content content content content
+<div class="jumpLandingCalculator">
+  <p></p>
+  <input (keyup)="jumpLanding($event)"> 
+  <p *ngFor="let item of acceleratingWithBumpValues | keyvalue">
+    <b>{{item.key}}</b> : <b>{{item.value}}</b>
   </p>
 </div>

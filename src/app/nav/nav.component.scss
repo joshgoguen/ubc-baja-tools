@@ -12,7 +12,7 @@ li {
 
 .nav-item {
   display: inline-block;
-  color: #8224e3;
+  color: black;
   text-align: center;
   padding: 14px 16px;
   height: 100%;
@@ -20,7 +20,7 @@ li {
 }
 
 li a:hover {
-  background-color: #333;
+  background-color: #8224e3;
   color: whitesmoke;
 }
 
@@ -29,6 +29,11 @@ li img {
   height: 45px;
   background-color: whitesmoke;
   display: block;
+}
+
+li img:hover {
+  background-color: #8224e3;
+  filter: brightness(0) invert(1);
 }
 
 .nav-box {
